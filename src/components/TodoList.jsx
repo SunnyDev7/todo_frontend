@@ -1,5 +1,7 @@
 import React from 'react'
 
+import TodoItem from './TodoItems'
+
 export default function TodoList({todos, setTodos}){
     return(
         <ul>
